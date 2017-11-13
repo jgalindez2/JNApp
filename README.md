@@ -1,4 +1,4 @@
-# JNApp (John Note App)
+# jnapp (John Note App)
 
 This is a simple Note App built with Node.js and ES6 features.
 
