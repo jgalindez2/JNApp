@@ -6,20 +6,20 @@ const title = {
 }
 
 const addSchema = {
-	properties: {
-		title,
-		body: {
-    		required: true,
-        	description: 'Enter the body'
-    	}
-	}
+    properties: {
+        title,
+        body: {
+            required: true,
+            description: 'Enter the body'
+        }
+    }
 }
 
 const readListSchema = {
-	properties: { title }
+    properties: { title }
 }
 
 module.exports = {
-	addSchema,
-	readListSchema
+    addSchema,
+    readListSchema
 }
